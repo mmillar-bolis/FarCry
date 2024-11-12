@@ -111,7 +111,7 @@ inline bool operator !=(int null, const _smart_ptr<_I> &p1)
 {
 	return (bool)p1;	
 }
-/*
+
 #if defined(LINUX64)
 template <class _I>
 inline bool operator ==(const _smart_ptr<_I> &p1, typeof(__null))	
@@ -134,7 +134,7 @@ inline bool operator !=(typeof(__null), const _smart_ptr<_I> &p1)
 	return (bool)p1;	
 }
 #endif //LINUX64
-*/
+
 // reference target for smart pointer
 // implements AddRef() and Release() strategy using reference counter of the specified type
 template <typename Counter> class _reference_target

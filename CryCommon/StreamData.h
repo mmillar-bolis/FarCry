@@ -5,7 +5,7 @@
 #include "IStreamEngine.h"			// IStreamEngine
 
 #if defined(LINUX)
-//	#include "stream.h"
+	#include "stream.h"
 #endif
 
 // usable:
@@ -26,6 +26,9 @@
 //    test the whole system in multiplayer
 //		save stream compression mask in file or init 0 for load and save
 //		check if fallback is working
+//
+//	History:
+//	- February 2005: Modified by Marco Corbetta for SDK release	
 
 // -------------------------------------------------------------------------------------------------------------
 

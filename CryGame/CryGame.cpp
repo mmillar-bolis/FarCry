@@ -3,6 +3,7 @@
 //
 //	Crytek Source code 
 //	Copyright (c) Crytek 2001-2004
+//	- February 2005: Modified by Marco Corbetta for SDK release
 //
 //////////////////////////////////////////////////////////////////////
 
@@ -13,9 +14,9 @@
 #include "CryGame.h"
 
 #ifndef	_XBOX
-//#if !defined(LINUX)
+#if !defined(LINUX)
 _ACCESS_POOL;
-//#endif//LINUX
+#endif//LINUX
 #endif //_XBOX
 
 #if !defined(PS2) && !defined(_XBOX) && !defined(LINUX)

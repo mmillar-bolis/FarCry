@@ -7,6 +7,7 @@
 //
 //  History:
 //  - August 3, 2001: Created by Alberto Demichelis
+//	- February 2005: Modified by Marco Corbetta for SDK release
 //
 //////////////////////////////////////////////////////////////////////
 
@@ -80,8 +81,8 @@ CXClient::CXClient()
 	m_pGame=0;
 
 	cl_explShakeDCoef = 0.07f;
-	cl_explShakeAmplH = 0.001;
-	cl_explShakeAmplV = 0.001;
+	cl_explShakeAmplH = 0.001f;
+	cl_explShakeAmplV = 0.001f;
 	cl_explShakeFreq = 11.73f;
 	cl_explShakeTime = 1.73f;
 
