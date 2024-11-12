@@ -317,9 +317,6 @@ void CXGame::InitConsoleCommands()
 				"Usage: ubilogout\n"
 				);
 		}
-		pConsole->CreateVariable("cl_saveubipassword", "1", VF_DUMPTODISK,
-			"Enables/Disables saving of Ubi.com username and password for later use.\n"
-			);
 		pConsole->AddCommand("load_lastcheckpoint","Game:LoadLatestCheckPoint()",0,
 			"Respawns the player at the last checkpoint reached.\n"
 			"Usage: load_lastcheckpoint\n");

@@ -609,9 +609,9 @@ struct IServerSecuritySink
 
 enum EMPServerType
 {
-	eMPST_LAN=0,				//!< LAN
-	eMPST_NET=1,				//!< e.g. ASE
-	eMPST_UBI=2,				//!< UBI.com
+	eMPST_LAN=0,                        //!< LAN
+	eMPST_NET,                        //!< e.g. ASE
+	eMPST_UBI,                        //!< UBI.com
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////
